@@ -3,10 +3,6 @@ import {addTodo} from '../actions';
 import {connect} from 'react-redux';
 import Form from '../components/Form'
 
-// const mapStateToProps = (state) => {
-//     return null
-// }
-
 const mapDispatchToProps = (dispatch) => {
     return {
         onClick: (text) => {
